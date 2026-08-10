@@ -15,7 +15,7 @@ The analysis focuses on asset performance, maintenance costs, downtime, failure 
 
 ---
 
-## 📁 File
+## 📁 SQL File
 
 ```text
 Industrial_Asset_Maintenance.sql
@@ -23,25 +23,9 @@ Industrial_Asset_Maintenance.sql
 
 ---
 
-## 🗃️ Database & Table
+## 📊 KPI Analysis
 
-Database:
-
-```sql
-project
-```
-
-Main Table:
-
-```text
-asset_maintenance
-```
-
----
-
-# 📊 KPI Analysis
-
-The SQL analysis calculates the following key metrics:
+The SQL analysis calculates:
 
 - Total Records
 - Total Assets
@@ -63,8 +47,6 @@ Maintenance cost is analyzed by:
 - Failure Type
 - Technician
 
-This helps identify the major maintenance cost drivers.
-
 ---
 
 # ⏱️ Downtime Analysis
@@ -76,11 +58,9 @@ Downtime is analyzed by:
 - Maintenance Type
 - Individual Assets
 
-This helps identify machines and assets contributing to higher operational downtime.
-
 ---
 
-# 🏭 Plant Performance Analysis
+# 🏭 Plant Performance
 
 Plant-level analysis includes:
 
@@ -89,8 +69,6 @@ Plant-level analysis includes:
 - Total Maintenance Cost
 - Average Repair Time
 - Total Work Orders
-
-This allows comparison of maintenance performance across plants.
 
 ---
 
@@ -102,18 +80,13 @@ The project analyzes:
 - Corrective Maintenance
 - Predictive Maintenance
 
-Maintenance types are compared based on:
-
-- Work Order Count
-- Downtime Hours
+Maintenance types are compared using work orders and downtime.
 
 ---
 
 # 🚨 Failure Analysis
 
-Failure types are analyzed to identify the most common machine failures.
-
-The analysis includes:
+Failure analysis focuses on:
 
 - Electrical Fault
 - Overheating
@@ -121,18 +94,16 @@ The analysis includes:
 - Motor Failure
 - Sensor Fault
 
-Records with `No Failure` are excluded from failure-specific analysis.
-
 ---
 
 # 👨‍🔧 Technician Analysis
 
-Technician performance is analyzed using:
+Technician analysis includes:
 
 - Total Work Orders
 - Total Repair Cost
 
-This helps understand workload distribution and maintenance responsibility.
+This helps understand workload distribution.
 
 ---
 
@@ -145,13 +116,13 @@ Asset-level analysis includes:
 - High-Cost Assets
 - High-Downtime Machines
 
-The project identifies the **Top 10 assets by repair cost** and **Top 10 assets by downtime**.
+The analysis identifies the Top 10 assets based on repair cost and downtime.
 
 ---
 
 # 💼 Business Questions
 
-The SQL analysis answers important business questions such as:
+The SQL analysis helps answer:
 
 1. How many assets are being analyzed?
 2. How many assets are currently active?
@@ -200,18 +171,9 @@ The SQL analysis helps management:
 
 ---
 
-# 🔗 Related Project Sections
+## 🔗 Related Sections
 
 - [Dataset](../Dataset/)
 - [Excel Analysis](../Excel/)
-- [Python Analysis](../Python/)
-- [Power BI Dashboard](../PowerBI/)
-- [Dashboard Images](../Images/)
-
----
-
-## 👨‍💻 Project
-
-**Industrial Asset Maintenance Analytics**
-
-An end-to-end Data Analytics project using Excel, SQL, Python, and Power BI to analyze industrial asset performance, maintenance costs, downtime, and operational efficiency.
+- [Dashboard](../Dashboard/)
+- [Main Project](../)
