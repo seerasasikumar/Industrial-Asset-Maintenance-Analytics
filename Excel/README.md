@@ -110,4 +110,3 @@ The Excel analysis supports maintenance decision-making by helping identify area
 - [Dataset](../Dataset/)
 - [SQL Analysis](../SQL/)
 - [Dashboard](../Dashboard/)
-- [Main Project](../)
