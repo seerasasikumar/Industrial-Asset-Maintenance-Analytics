@@ -1,51 +1,64 @@
-# Dataset
+# 📁 Dataset
 
-The dataset contains industrial asset maintenance records used for analyzing asset performance, maintenance activities, downtime, repair costs, failures, and operational efficiency.
+## Industrial Asset Maintenance Dataset
 
-## Dataset Overview
+This folder contains the dataset used for the Industrial Asset Maintenance Analytics project.
 
-- Records: 1,000
-- Columns: 18
-- Industry: Industrial / Manufacturing
-- Data Type: Maintenance and Asset Operations
+The dataset contains records related to industrial assets, maintenance activities, downtime, costs, failures, technicians, plants, departments, and machine types.
 
-## Key Fields
+---
 
-| Field | Description |
-|---|---|
-| Asset_ID | Unique asset identifier |
-| Plant | Manufacturing plant |
-| Department | Operating department |
-| Machine_Type | Type of industrial machine |
-| Installation_Year | Year the asset was installed |
-| Maintenance_Date | Maintenance activity date |
-| Maintenance_Type | Preventive, Corrective, or Predictive |
-| Failure_Type | Type of machine failure |
-| Downtime_Hours | Machine downtime |
-| Repair_Cost_INR | Maintenance and repair cost |
-| Technician | Assigned technician |
-| Priority | Work order priority |
-| Work_Order_Status | Status of maintenance work order |
-| Asset_Status | Current asset status |
-| Spare_Part_Used | Spare part used during maintenance |
-| Repair_Time_Hours | Time required for repair |
-| Asset_Age_Years | Age of the asset |
+## 📊 Dataset Coverage
 
-## Purpose
+The dataset supports analysis of:
 
-The dataset is used to identify:
-
-- High-maintenance plants
-- Frequent machine failures
-- Downtime patterns
-- Maintenance cost drivers
 - Asset performance
+- Asset status
+- Maintenance cost
+- Downtime
+- Repair time
+- Failure types
+- Maintenance types
 - Technician workload
-- Preventive vs corrective maintenance patterns
+- Asset age
+- Plant performance
+- Department performance
 
-## Tools Used
+---
 
-- Excel
-- SQL
-- Python
-- Power BI
+## 🔑 Important Business Fields
+
+Key fields used for analysis include:
+
+- Asset information
+- Plant
+- Department
+- Machine Type
+- Maintenance Type
+- Failure Type
+- Technician
+- Asset Status
+- Asset Age
+- Downtime Hours
+- Repair Time
+- Maintenance Cost
+
+---
+
+## 🎯 Purpose
+
+The dataset is used as the foundation for:
+
+- Excel analysis
+- Pivot Table analysis
+- Dashboard development
+- SQL analysis
+- Business insights
+
+---
+
+## 🔗 Related Sections
+
+- [Excel Analysis](../Excel/)
+- [SQL Analysis](../SQL/)
+- [Dashboard](../Dashboard/)
