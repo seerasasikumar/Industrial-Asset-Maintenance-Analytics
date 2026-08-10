@@ -2,78 +2,24 @@
 
 ## Industrial Asset Maintenance Analytics
 
-This folder contains the Microsoft Excel analysis performed on the Industrial Asset Maintenance dataset.
+This section contains the Excel-based analysis performed on the Industrial Asset Maintenance dataset.
 
-The analysis focuses on asset performance, maintenance costs, machine downtime, failure patterns, technician workload, maintenance types, and asset age.
-
----
-
-## 📁 Files
-
-| File | Description |
-|------|-------------|
-| `Industrial_Asset_Maintenance.xlsx` | Complete Excel analysis workbook |
+Excel was used for data analysis, KPI calculation, Pivot Tables, and business dashboard development.
 
 ---
 
-## 🛠️ Excel Analysis Performed
+## 🛠️ Tool Used
 
-The dataset was analyzed using Excel features including:
-
-- Data validation
-- KPI calculations
+- Microsoft Excel
 - Pivot Tables
-- Pivot Charts
-- Aggregation and comparison
-- Dashboard development
-- Business performance analysis
+- Charts
+- Data Analysis
 
 ---
 
-## 📌 Key Performance Indicators
+# 📌 KPI Analysis
 
-| KPI | Value |
-|-----|------:|
-| Total Assets | 1,000 |
-| Active Assets | 322 |
-| Under Maintenance Assets | 313 |
-| Total Downtime | 9,193 Hours |
-| Total Maintenance Cost | ₹23,585,531 |
-| Average Repair Time | 5.1 Hours |
-| Active Asset Rate | 32.2% |
-| Average Asset Age | 6.3 Years |
-
----
-
-## 📊 Pivot Table Analysis
-
-The Excel workbook includes analysis of:
-
-### Maintenance Cost
-- Maintenance cost by plant
-- Maintenance cost by department
-
-### Asset Performance
-- Asset status distribution
-- Asset age distribution
-- Active asset analysis
-
-### Maintenance Operations
-- Maintenance type distribution
-- Work orders by technician
-- Failure type analysis
-
-### Downtime
-- Downtime by machine type
-- Machine-level operational performance
-
----
-
-## 📈 Excel Dashboard
-
-The dashboard provides a consolidated view of industrial asset maintenance performance.
-
-It includes:
+The Excel analysis includes the following key metrics:
 
 - Total Assets
 - Active Assets
@@ -83,125 +29,85 @@ It includes:
 - Average Repair Time
 - Active Asset Rate
 - Average Asset Age
-- Maintenance Cost by Plant
-- Downtime by Machine Type
-- Asset Status Distribution
-- Maintenance Type Distribution
-- Work Orders by Technician
-- Failure Type Analysis
-- Maintenance Cost by Department
-- Asset Age Distribution
-
-### Dashboard Preview
-
-![Industrial Asset Maintenance Excel Dashboard](../Images/Industrial_Excel_Dashboard.png)
 
 ---
 
-## 💡 Key Findings
+# 📈 Analysis Performed
 
-### 1. Highest Maintenance Cost
+## Maintenance Cost
 
-The **Pune plant** recorded the highest maintenance cost at approximately **₹5.21M**.
+Maintenance cost was analyzed by:
 
-### 2. Highest Downtime Machine
+- Plant
+- Department
 
-**Compressor machines** contributed the highest downtime at approximately **1,604 hours**.
+## Downtime
 
-### 3. Most Frequent Failure
+Downtime was analyzed by:
 
-**Electrical Fault** was the most frequently recorded failure type.
+- Machine Type
 
-### 4. Technician Workload
+## Asset Status
 
-**Ravi** handled the highest number of work orders with **177 work orders**.
+Asset distribution was analyzed using:
 
-### 5. Maintenance Type
+- Active
+- Idle
+- Under Maintenance
 
-**Preventive Maintenance** represented the largest maintenance category with approximately **50.2%** of maintenance activities.
+## Maintenance Type
 
-### 6. Asset Age
+Maintenance activities were analyzed using:
 
-Assets aged between **1 and 4 years** represented a significant portion of the total asset base.
+- Preventive
+- Corrective
+- Predictive
 
-### 7. Asset Availability
+## Technician Analysis
 
-The current **Active Asset Rate is 32.2%**, indicating that only around one-third of the assets are currently classified as active.
+Work orders were analyzed by technician.
 
----
+## Failure Analysis
 
-## 🎯 Business Questions Answered
+Failure types were analyzed to identify frequent machine failures.
 
-The Excel analysis helps answer the following business questions:
+## Asset Age
 
-- Which plant has the highest maintenance cost?
-- Which machine type has the highest downtime?
-- Which failure occurs most frequently?
-- Which technician handles the highest number of work orders?
-- What type of maintenance is performed most frequently?
-- How are assets distributed by status?
-- What is the age distribution of the assets?
-- Which departments contribute the highest maintenance costs?
+Asset age distribution was analyzed to understand the age profile of the asset base.
 
 ---
 
-## 🔍 Business Value
+# 📊 Dashboard
 
-The analysis can help maintenance and operations teams:
+The Excel dashboard brings the major KPIs and analysis into a single management-level view.
 
-- Identify high-cost plants
-- Prioritize high-downtime machines
-- Monitor technician workload
-- Improve preventive maintenance planning
-- Identify recurring failure types
-- Understand asset lifecycle patterns
-- Improve asset utilization
-- Support maintenance budgeting decisions
+![Industrial Asset Maintenance Dashboard](../Dashboard/Industrial_Excel_Dashboard.png)
 
 ---
 
-## 🧰 Tools Used
+# 💡 Business Insights
 
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Excel Dashboard
-- Data Analysis
-- KPI Analysis
+The analysis helps identify:
 
----
-
-## 📂 Project Workflow
-
-```text
-Raw Dataset
-     ↓
-Data Validation
-     ↓
-Excel Analysis
-     ↓
-Pivot Tables
-     ↓
-Pivot Charts
-     ↓
-KPI Calculation
-     ↓
-Excel Dashboard
-     ↓
-Business Insights
-```
+- High maintenance cost plants
+- High downtime machine types
+- Asset status distribution
+- Common failure types
+- Technician workload
+- Maintenance type distribution
+- Asset age patterns
 
 ---
 
-## 📌 Project Context
+# 🎯 Business Value
 
-This analysis is part of the **Industrial Asset Maintenance Analytics** portfolio project.
+The Excel analysis supports maintenance decision-making by helping identify areas that require attention and prioritization.
 
-The overall project integrates:
+---
 
-- Excel
-- SQL
-- Python
-- Power BI
+## 🔗 Related Sections
 
-to analyze industrial asset performance and support data-driven maintenance decisions.
+- [Dataset](../Dataset/)
+- [SQL Analysis](../SQL/)
+- [Dashboard](../Dashboard/)
+- [Main Project](../)
