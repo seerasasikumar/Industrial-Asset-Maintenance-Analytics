@@ -62,4 +62,3 @@ The dashboard is designed to help management quickly identify:
 - [Dataset](../Dataset/)
 - [Excel Analysis](../Excel/)
 - [SQL Analysis](../SQL/)
-- [Main Project](../)
