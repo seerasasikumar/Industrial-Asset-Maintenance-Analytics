@@ -176,4 +176,3 @@ The SQL analysis helps management:
 - [Dataset](../Dataset/)
 - [Excel Analysis](../Excel/)
 - [Dashboard](../Dashboard/)
-- [Main Project](../)
